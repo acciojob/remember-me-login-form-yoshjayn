@@ -27,7 +27,7 @@
                 localStorage.removeItem("password");
             }
 
-            alert("Login successful!");
+            alert(`Logged in as ${username}`);
         });
 
         // Handle "Login as existing user" button click
