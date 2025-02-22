@@ -13,9 +13,11 @@
         <h1>Login Form</h1>
         <form id="loginForm">
             <!-- Username Field -->
+             <label for="username"></label>
             <input type="text" id="username" placeholder="Username" required>
 
             <!-- Password Field -->
+             <label for="password"></label>
             <input type="password" id="password" placeholder="Password" required>
 
             <!-- Remember Me Checkbox -->
@@ -25,11 +27,11 @@
             </div>
 
             <!-- Submit Button -->
-            <button type="submit" id="submit">Submit</button>
+            <input type="submit" id="submit" value="Submit">
 
             <!-- Existing User Login Button -->
-            <button type="button" id="existing">Login as existing user</button>
-		</form>
+            <input type="button" id="existing" value="Login as existing user">
+        </form>
     </div>
     <script type="text/javascript" src="./script.js">
 </script>
